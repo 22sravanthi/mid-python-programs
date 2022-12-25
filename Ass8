@@ -1,0 +1,7 @@
+s=int(input())
+e=int(input())
+for i in range(s,e):
+    if i%4==0 and i%100!=0:
+        print(i)
+    elif i%400==0:
+        print(i)
